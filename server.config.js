@@ -1,8 +1,8 @@
 module.exports = function() {
 
     var config = {
-        port:8050,
-        backend:"localhost:8051"
+        port:8035,
+        backend:"localhost:8036"
 
     };
 
