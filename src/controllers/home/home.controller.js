@@ -349,10 +349,6 @@ angular.module('flynnthoughtsApp')
                         "text":""
                     },
                     {
-                        "path":"src/assets/shadesofgrey/shadesofgrey03.jpg",
-                        "text":""
-                    },
-                    {
                         "path":"src/assets/shadesofgrey/shadesofgrey04.jpg",
                         "text":""
                     },
