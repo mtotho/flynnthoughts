@@ -5,16 +5,15 @@
     "angular": "latest",
     "angular-animate": "^1.3.0",
     "angular-aria": "^1.3.0",
+    "angular-bootstrap": "~0.14.3",
     "angular-cookies": "^1.3.0",
     "angular-resource": "^1.3.0",
     "angular-route": "^1.3.0",
     "angular-sanitize": "^1.3.0",
     "angular-touch": "^1.3.0",
-    "angular-material": "master",
+    "angular-ui-router": "latest",
     "hammerjs": "latest",
-    "lodash": "latest",
-    "angular-ui-router":"latest"
-
+    "lodash": "latest"
   },
   "devDependencies": {
     "angular-mocks": "~1.3.0",

@@ -10,9 +10,75 @@
         padding:100px 0 0 0;
     }
 
+    .slide-show-thumbs > div{
+        padding:20px;
+
+    }
+    .slide-show-thumbs .thumbnail-outter{
+        -webkit-box-shadow: 4px 4px 10px 0px rgba(54,51,54,0.65);
+        -moz-box-shadow: 4px 4px 10px 0px rgba(54,51,54,0.65);
+        box-shadow: 4px 4px 10px 0px rgba(54,51,54,0.65);
+    }
 </style>
 
 
-<div class="jumbo">
-    <h1>Flynn Thoughts</h1>
+<div class="row slide-show-thumbs">
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+            <popup-carousel options="vm.PopupModalOptions['shadesofgrey']"></popup-carousel>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+            <popup-carousel options="vm.PopupModalOptions['pinkdetails']"></popup-carousel>
+
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+            <popup-carousel options="vm.PopupModalOptions['greenvelvets']"></popup-carousel>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+
+            <popup-carousel options="vm.PopupModalOptions['homeoffice']"></popup-carousel>
+
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+            <popup-carousel options="vm.PopupModalOptions['familyroom']"></popup-carousel>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+
+            <popup-carousel options="vm.PopupModalOptions['cabinlife']"></popup-carousel>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+            <popup-carousel options="vm.PopupModalOptions['flynnsflowers']"></popup-carousel>
+
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="thumbnail-outter">
+            <popup-carousel options="vm.PopupModalOptions['lambertvillehome']"></popup-carousel>
+        </div>
+    </div>
 </div>
+
