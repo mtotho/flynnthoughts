@@ -8,10 +8,10 @@ body {
 
 header{
     text-align:center;
-    border-bottom: 4px solid #D1E2E6;
-    padding:35px 0 35px 0;
-    padding:35px 0 35px 0;
-    background-color:#FEFDF8;
+    border-bottom: 5px solid #E3EEF0;
+    padding:40px 0 40px 0;
+
+    background-color:#FEFEFC;
 }
 header .container{
 
@@ -140,24 +140,37 @@ img.carouselThumbail{
 
 
 footer{
-    margin-top:30px;
-    padding-bottom:20px;
+    margin-top:40px;
+    padding-bottom:30px;
 }
 footer a, footer span{
     font-size:22px;
     color:#8C484E;
 }
 .circle-outter{
-    margin-top:5px;
+    margin-top:10px;
     margin-left:-5px; margin-right:-5px;
 }
 .circle-container{
     float:left;
     width: 4%;
-    padding:5px 5px 5px 5px;
+    padding:3px;
     height: auto;
 }
+@media (max-width: 1000px){
+    .circle-container {
+        padding:2px;
+    }
+}
+
+@media (max-width: 800px){
+    .circle-container {
+        padding:1px;
+    }
+}
+
 .circle{
     border-radius: 50%;
     padding-bottom: 100%;
 }
+
