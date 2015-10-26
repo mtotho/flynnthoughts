@@ -23,7 +23,7 @@ app.use('/api', proxy(config.backend, {
 }));
 
 
-//app.use(favicon(__dirname + '/LEGACY_Favicon.ico'));
+app.use(favicon(__dirname + '/favicon.ico'));
 app.use(bodyParser.urlencoded({
     extended: false
 }));
