@@ -9,7 +9,7 @@ angular.module('flynnthoughtsApp')
             "lambertvillehome":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/lambertvillehome/lambertvillehome01.jpg"
+                    "path":"src/assets/lambertvillehome/thumb-lambertvillehome.png"
 
                 },
                 slides:[
@@ -34,7 +34,7 @@ angular.module('flynnthoughtsApp')
             "cabinlife":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/Cabin Life/Cabin Life.001.jpeg"
+                    "path":"src/assets/Cabin Life/thumbail-Cabin Life.png"
 
                 },
                 slides:[
@@ -87,7 +87,7 @@ angular.module('flynnthoughtsApp')
             "familyroom":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/Family Room/Family Room.001.jpeg"
+                    "path":"src/assets/Family Room/thumbail-Family Room.png"
 
                 },
                 slides:[
@@ -144,7 +144,7 @@ angular.module('flynnthoughtsApp')
             "flynnsflowers":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/FlynnsFlowers/Flynn's Flowers.001.jpeg"
+                    "path":"src/assets/FlynnsFlowers/thumbail-Flynn's Flowers.png"
 
                 },
                 slides:[
@@ -209,7 +209,7 @@ angular.module('flynnthoughtsApp')
             "greenvelvets":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/Green Velvets/Green Velvets.001.jpeg"
+                    "path":"src/assets/Green Velvets/thumbail-Green Velvets.png"
 
                 },
                 slides:[
@@ -242,7 +242,7 @@ angular.module('flynnthoughtsApp')
             "homeoffice":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/Home Office/Home Office .001.jpeg"
+                    "path":"src/assets/Home Office/thumbail-Home Office.png"
 
                 },
                 slides:[
@@ -291,7 +291,7 @@ angular.module('flynnthoughtsApp')
             "pinkdetails":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/Pink Details/Pink Details.001.jpeg"
+                    "path":"src/assets/Pink Details/thumbail-Pink Details.png"
 
                 },
                 slides:[
@@ -332,7 +332,7 @@ angular.module('flynnthoughtsApp')
             "shadesofgrey":{
                 "alignment":"vertical",
                 thumbnail:{
-                    "path":"src/assets/shadesofgrey/shadesofgrey01.jpg"
+                    "path":"src/assets/shadesofgrey/thumbail-shadesofgrey.png"
 
                 },
                 slides:[
