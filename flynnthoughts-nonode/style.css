@@ -1,0 +1,176 @@
+*{
+    font-family: 'Slabo 27px', serif;
+}
+body {
+    background-color: white;
+}
+
+
+header{
+    text-align:center;
+    border-bottom: 5px solid #E3EEF0;
+    padding:40px 0 40px 0;
+
+    background-color:#FEFEFC;
+}
+header .container{
+
+}
+header h1{
+    margin-top:10px;
+    color:#B4552E;
+    font-size:50px;
+}
+header h2{
+    margin-top:10px;
+    color:#863121;
+}
+
+nav{
+    padding:20px 0 20px 0;
+}
+nav .container{
+
+}
+nav ul{
+
+}
+nav .nav-pills>li.active>a{
+    font-weight:bold;
+    color:black;
+    background-color:white;
+}
+nav .nav-pills>li.active>a:hover,nav .nav-pills>li.active>a:focus{
+    background-color:white;
+    color:black;
+}
+
+nav .nav-pills a{
+    color:#6E6E6E;
+    font-size:18px;
+}
+
+.ft-content{
+
+}
+
+.ft-content .container{
+
+}
+
+img.carouselThumbail{
+    max-width:100%;
+    cursor:pointer;
+}
+
+.modal-lg{
+    width:auto !important;;
+    margin-top:0px !important;
+}
+
+.carousel-inner>.item img {
+    display: block;
+    /* max-width: 100%; */
+    max-width:100% !important;
+    height: auto;
+}
+
+
+.modal-dialog,
+.modal-content, .modal-body{
+    /* 80% of window height */
+    border-radius:0px !important;
+    height: auto !important;
+}
+
+@media (min-width: 890px){
+    .carousel-inner>.item>img {
+        /*max-width:80% !important;*/
+    }
+    .modal-dialog,
+    .modal-content, .modal-body{
+        /* 80% of window height */
+        height: auto !important;
+    }
+    .modal-lg{
+        width:70% !important;;
+        margin-top:20px !important;
+    }
+}
+
+@media (min-width: 1000px){
+    .modal-lg{
+        width:60% !important;
+        margin-top:20px !important;
+    }
+
+
+}
+
+@media (min-width: 1200px){
+    .modal-lg{
+        width:55% !important;
+        margin-top:30px !important;
+    }
+    .modal-dialog,
+    .modal-content, .modal-body{
+        /* 80% of window height */
+
+    }
+
+}
+
+.modal-content{
+
+}
+
+.tall-image img{
+    display:inline !important;
+
+
+}
+
+.carousel-control.ng-hide:not(.ng-hide-animate){
+    display:block !important;
+}
+.wrapper         {width:80%;height:100%;margin:0 auto;}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+
+footer{
+    margin-top:40px;
+    padding-bottom:30px;
+}
+footer a, footer span{
+    font-size:22px;
+    color:#8C484E;
+}
+.circle-outter{
+    margin-top:10px;
+    margin-left:-5px; margin-right:-5px;
+}
+.circle-container{
+    float:left;
+    width: 4%;
+    padding:3px;
+    height: auto;
+}
+@media (max-width: 1000px){
+    .circle-container {
+        padding:2px;
+    }
+}
+
+@media (max-width: 800px){
+    .circle-container {
+        padding:1px;
+    }
+}
+
+.circle{
+    border-radius: 50%;
+    padding-bottom: 100%;
+}
+
